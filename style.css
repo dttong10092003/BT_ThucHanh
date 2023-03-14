@@ -1,20 +1,20 @@
 .container{
     display: flex;
-    height: 750px;  
+    height: 900px;  
 }
 .left{
-    height: 750px;
     width: 125px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: px;
 }
 #left-bot{
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding-bottom: 30px;
+   
 }
 #left-top{
     display: flex;
@@ -25,7 +25,6 @@
 
 .center{
     width: 830px;
-   
 }
 .right{
     width: 440px;
@@ -129,4 +128,49 @@
 }
 .center-five-icon{
     margin: 10px;
+}
+.right{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.right-top{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.right-top-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 67%;
+}
+.right-top-span{
+    position: relative;
+    left: 5px;
+    bottom: 12px;
+    font: 0.9em sans-serif;
+}
+.right-top-r{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#right-top-btn{
+    background-color: white;
+    border-color:  rgb(235, 160, 173);
+    color: rgb(235, 160, 173);
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+.right-top-icon{
+    position: relative;
+    top: 5px;
+}
+.right-bot{
+    margin-top: 30px;
 }
