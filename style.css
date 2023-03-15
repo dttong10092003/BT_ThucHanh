@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
 .container{
     display: flex;
     height: 900px; 
@@ -186,12 +190,12 @@
 #btn-two{
     position: absolute;
     top: 8px;
-    left: 295px;
+    left: 288px;
 }
 #btn-three{
     position: absolute;
     top: 8px;
-    left: 580px;
+    left: 567px;
 }
 .noi-dung-btn{
     height: 27px;
@@ -212,13 +216,13 @@
     height: 27.5px;
     position: absolute;
     top: 8px;
-    left: 508px;
+    left: 503px;
 }
 #noi-dung-three{
     height: 27.5px;
     position: absolute;
     top: 8px;
-    left: 793px;
+    left: 780px;
 }
 #span-4{
     position: relative;
